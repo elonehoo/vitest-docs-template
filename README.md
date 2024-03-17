@@ -1,3 +1,7 @@
+:::[!NOTE]
+This repository is only intended to synchronize the official vitest documentation, if you are ready to translate the vitest documentation in other languages you can refer to this repository
+:::
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11247099/145112184-a9ff6727-661c-439d-9ada-963124a281f7.png" height="150">
 </p>
