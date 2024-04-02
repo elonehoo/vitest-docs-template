@@ -15,7 +15,7 @@
     "serve": "vitepress serve docs",
     "preview-https": "pnpm run build docs && serve .vitepress/dist",
     "preview-https-no-prefetch": "pnpm run build-no-prefetch && serve .vitepress/dist",
-    "prefetch": "tsx .vitepress/scripts/fetch-avatars.ts",
+    "prefetch": "tsx docs/.vitepress/scripts/fetch-avatars.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "generate-pwa-icons": "pwa-assets-generator",
