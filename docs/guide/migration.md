@@ -196,6 +196,15 @@ await expect(spy.mock.results[0].value).resolves.toBe(123) // [!code --]
 expect(spy.mock.results[0].value).toBe(123) // [!code ++]
 ```
 
+### expect.getState().currentTestName
+
+Vitest's `test` names are joined with a `>` symbol to make it easier to distinguish tests from suites, while Jest uses an empty space (` `).
+
+```
+- `${describeTitle} ${testTitle}`
++ `${describeTitle} > ${testTitle}`
+```
+
 ### Envs
 
 Just like Jest, Vitest sets `NODE_ENV` to `test`, if it wasn't set before. Vitest also has a counterpart for `JEST_WORKER_ID` called `VITEST_POOL_ID` (always less than or equal to `maxThreads`), so if you rely on it, don't forget to rename it. Vitest also exposes `VITEST_WORKER_ID` which is a unique ID of a running worker - this number is not affected by `maxThreads`, and will increase with each created worker.
