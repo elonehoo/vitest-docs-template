@@ -254,7 +254,7 @@ export function foo() {
 }
 
 export function foobar(injectedFoo) {
-  return injectedFoo !== foo // false
+  return injectedFoo === foo // false
 }
 ```
 
