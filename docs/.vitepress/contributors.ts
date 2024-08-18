@@ -103,14 +103,6 @@ const plainTeamMembers: CoreTeam[] = [
     desc: 'Vite\'s fanatical follower',
   },
   {
-    avatar: contributorsAvatars.Dunqing,
-    name: 'Dunqing',
-    github: 'Dunqing',
-    twitter: '@Dunqingg',
-    title: 'A passionate enthusiast of open source contributions',
-    desc: 'Team member of Vitest & UnoCSS',
-  },
-  {
     avatar: contributorsAvatars['hi-ogawa'],
     name: 'Hiroshi Ogawa',
     github: 'hi-ogawa',
@@ -121,6 +113,14 @@ const plainTeamMembers: CoreTeam[] = [
 ]
 
 const plainTeamEmeritiMembers: CoreTeam[] = [
+  {
+    avatar: contributorsAvatars.Dunqing,
+    name: 'Dunqing',
+    github: 'Dunqing',
+    twitter: '@Dunqingg',
+    title: 'A passionate enthusiast of open source contributions',
+    desc: 'Team member of oxc & UnoCSS',
+  },
   {
     avatar: contributorsAvatars.Aslemammad,
     name: 'Mohammad Bagher',
